@@ -171,3 +171,33 @@ section {
     padding-right: 28px;
   }
 }
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+.contact-card {
+  margin-top: 32px;
+  background: var(--card);
+  border-radius: 18px;
+  padding: 28px;
+  border: 1px solid #1e2633;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-card p {
+  margin-bottom: 14px;
+  color: var(--muted);
+}
+
+.contact-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
