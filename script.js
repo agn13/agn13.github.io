@@ -1,11 +1,14 @@
-// Smooth scroll placeholder
-document.querySelectorAll('.nav-links li').forEach(item => {
-  item.addEventListener('click', () => {
-    alert('Section navigation coming soon 🚀');
+// Smooth scroll for Contact button
+const contactBtn = document.getElementById("contactBtn");
+const contactSection = document.getElementById("contact");
+
+contactBtn.addEventListener("click", () => {
+  contactSection.scrollIntoView({
+    behavior: "smooth"
   });
 });
 
-// Future enhancements:
-// - Scroll animations
-// - Dark/light toggle
-// - Project filters
+// Resume button placeholder
+document.getElementById("downloadResume").addEventListener("click", () => {
+  alert("Resume download will be added soon 📄");
+});
